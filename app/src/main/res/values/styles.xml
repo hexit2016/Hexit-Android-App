@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <color name="grey">#dddddd</color>
+    <color name="lightgrey">#eeeeee</color>
+    <color name="darkgrey">#cccccc</color>
+    <color name="black">#000000</color>
+    <color name="jojoblue">#3F34A8</color>
+    <color name="jojored">#953535</color>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jojoblue</item>
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:windowBackground">@color/jojored</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="heading" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">62px</item>
+
+    </style>
+
+    <style name="Myway" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+</resources>
